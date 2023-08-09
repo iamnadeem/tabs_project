@@ -31,6 +31,7 @@ if(isLoading){
     return (
       <section className='jobs-center'>
         {/* button constainer */}
+        <BtnContainer jobs={jobs}  />
         {/* job info */}
         <Jobinfo jobs={jobs}/>
 
